@@ -1,0 +1,185 @@
+Opening monitor command playback file: /Users/marco/Documents/C64/Projects/Test/bin/spritemovement.vs
+Error - failed to find resource data 'PetMe1282Y.ttf'.
+Error - failed to register CBM font.
+ 
+*** VICE Version 3.9 ***
+ 
+Welcome to x64sc, the free portable C64 Emulator.
+ 
+Current VICE team members:
+Pottendo, Marco van den Heuvel, Fabrizio Gennari, Groepaz, Errol Smith, 
+Ingo Korb, Olaf Seibert, Marcus Sutton, Kajtar Zsolt, AreaScout, Bas Wassink, 
+Michael C. Martin, Christopher Phillips, David Hogan, Empathic Qubit, 
+Roberto Muscedere, June Tate-Gans, Pablo Roldan.
+ 
+This is free software with ABSOLUTELY NO WARRANTY.
+See the "About VICE" command for more info.
+ 
+Main: random seed was: 0x68e3ca43
+Main: command line was: /Applications/VICE_3.9GTK/VICE.app/Contents/Resources/bin/x64sc -logfile /Users/marco/Documents/C64/Projects/Test/bin/spritemovement_ViceLog.txt -moncommands /Users/marco/Documents/C64/Projects/Test/bin/spritemovement.vs /Users/marco/Documents/C64/Projects/Test/bin/spritemovement.prg
+Main: VICE system file directory: '/Applications/VICE_3.9GTK/VICE.app/Contents/Resources/bin/../share/vice'.
+Main: VICE system file search path: '/Users/marco/.local/share/vice:/Applications/VICE_3.9GTK/VICE.app/Contents/Resources/bin:/Applications/VICE_3.9GTK/VICE.app/Contents/Resources/bin/../share/vice'.
+Loading system file `/Applications/VICE_3.9GTK/VICE.app/Contents/Resources/bin/../share/vice/C64/kernal-901227-03.bin'.
+C64MEM: Kernal rev #3 ($03) Sum: 50954 ($C70A) SHA1: 1d503e56df85a62fee696e7618dc5b4e781df1bb.
+Loading system file `/Applications/VICE_3.9GTK/VICE.app/Contents/Resources/bin/../share/vice/C64/basic-901226-01.bin'.
+Loading system file `/Applications/VICE_3.9GTK/VICE.app/Contents/Resources/bin/../share/vice/C64/chargen-901225-01.bin'.
+Palette: Loading palette `/Applications/VICE_3.9GTK/VICE.app/Contents/Resources/bin/../share/vice/PRINTER/mps803.vpl'.
+Loading system file `/Applications/VICE_3.9GTK/VICE.app/Contents/Resources/bin/../share/vice/PRINTER/nl10.bin'.
+Palette: Loading palette `/Applications/VICE_3.9GTK/VICE.app/Contents/Resources/bin/../share/vice/PRINTER/nl10.vpl'.
+NL10: Printer driver initialized.
+Palette: Loading palette `/Applications/VICE_3.9GTK/VICE.app/Contents/Resources/bin/../share/vice/PRINTER/1520.vpl'.
+Loading system file `/Applications/VICE_3.9GTK/VICE.app/Contents/Resources/bin/../share/vice/DRIVES/dos1540-325302+3-01.bin'.
+Loading system file `/Applications/VICE_3.9GTK/VICE.app/Contents/Resources/bin/../share/vice/DRIVES/dos1541-325302-01+901229-05.bin'.
+Loading system file `/Applications/VICE_3.9GTK/VICE.app/Contents/Resources/bin/../share/vice/DRIVES/dos1541ii-251968-03.bin'.
+Loading system file `/Applications/VICE_3.9GTK/VICE.app/Contents/Resources/bin/../share/vice/DRIVES/dos1570-315090-01.bin'.
+Loading system file `/Applications/VICE_3.9GTK/VICE.app/Contents/Resources/bin/../share/vice/DRIVES/dos1571-310654-05.bin'.
+Loading system file `/Applications/VICE_3.9GTK/VICE.app/Contents/Resources/bin/../share/vice/DRIVES/dos1581-318045-02.bin'.
+DriveROM: Error - 2000 ROM image not found. Hardware-level 2000 emulation is not available.
+DriveROM: Error - 4000 ROM image not found. Hardware-level 4000 emulation is not available.
+DriveROM: Error - CMDHD ROM image not found. Hardware-level CMDHD emulation is not available.
+Loading system file `/Applications/VICE_3.9GTK/VICE.app/Contents/Resources/bin/../share/vice/DRIVES/dos2031-901484-03+05.bin'.
+Loading system file `/Applications/VICE_3.9GTK/VICE.app/Contents/Resources/bin/../share/vice/DRIVES/dos2040-901468-06+07.bin'.
+Loading system file `/Applications/VICE_3.9GTK/VICE.app/Contents/Resources/bin/../share/vice/DRIVES/dos3040-901468-11-13.bin'.
+Loading system file `/Applications/VICE_3.9GTK/VICE.app/Contents/Resources/bin/../share/vice/DRIVES/dos4040-901468-14-16.bin'.
+Loading system file `/Applications/VICE_3.9GTK/VICE.app/Contents/Resources/bin/../share/vice/DRIVES/dos1001-901887+8-01.bin'.
+Loading system file `/Applications/VICE_3.9GTK/VICE.app/Contents/Resources/bin/../share/vice/DRIVES/dos9000-300516+7-revC.bin'.
+Drive: Finished loading ROM images.
+VIC-II: Initializing chip model "MOS6569R3" (63 cycles per line, 312 raster lines).
+Window: using GTK3 backend: OpenGL
+Window: chip_name: VICII
+Window:  screen_size: 384 x 312
+Window:  gfx_size: 320 x 200
+Window:  gfx_position: 32 x 51
+Window:  first/last displayed line: 16 x 287
+Window:  extra offscreen border left/right: 0 x 0
+Window:  scalexy: 2 x 2 sizexy: 1 x 1
+Window:  rmode: 1
+Window:  aspect ratio: 0.936508
+Window:  hstretch: 0 vstretch: 0
+Window:  initializing with width, height: 704 x 507
+OpenGL: Loading vertex shader: /Applications/VICE_3.9GTK/VICE.app/Contents/Resources/bin/../share/vice/GLSL/viewport.vert
+OpenGL: Loading fragment shader: /Applications/VICE_3.9GTK/VICE.app/Contents/Resources/bin/../share/vice/GLSL/builtin.frag
+OpenGL: Loading vertex shader: /Applications/VICE_3.9GTK/VICE.app/Contents/Resources/bin/../share/vice/GLSL/viewport.vert
+OpenGL: Loading fragment shader: /Applications/VICE_3.9GTK/VICE.app/Contents/Resources/bin/../share/vice/GLSL/builtin-interlaced.frag
+OpenGL: Loading vertex shader: /Applications/VICE_3.9GTK/VICE.app/Contents/Resources/bin/../share/vice/GLSL/viewport.vert
+OpenGL: Loading fragment shader: /Applications/VICE_3.9GTK/VICE.app/Contents/Resources/bin/../share/vice/GLSL/bicubic.frag
+OpenGL: Loading vertex shader: /Applications/VICE_3.9GTK/VICE.app/Contents/Resources/bin/../share/vice/GLSL/viewport.vert
+OpenGL: Loading fragment shader: /Applications/VICE_3.9GTK/VICE.app/Contents/Resources/bin/../share/vice/GLSL/bicubic-interlaced.frag
+Render thread: Created render thread 0
+OpenGL: Render thread initialised
+Palette: Loading palette `/Applications/VICE_3.9GTK/VICE.app/Contents/Resources/bin/../share/vice/C64/pepto-pal.vpl'.
+Palette: Loading palette `/Applications/VICE_3.9GTK/VICE.app/Contents/Resources/bin/../share/vice/C64/pepto-pal.vpl'.
+Sound: Available sound devices: coreaudio dummy fs dump wav voc iff aiff mp3 flac ogg soundmovie
+Keymap: Loading keymap `/Applications/VICE_3.9GTK/VICE.app/Contents/Resources/bin/../share/vice/C64/gtk3_sym_it.vkm'.
+Hotkeys: Initializing hotkeys.
+Hotkeys: parsing default file '/Applications/VICE_3.9GTK/VICE.app/Contents/Resources/bin/../share/vice/hotkeys/hotkeys.vhk' for machine C64
+Hotkeys: OK.
+Main CPU: 
+Main CPU: starting at ($FFFC).
+Main CPU: RESET.
+VIC-II: VSP Bug: safe channels are: 1236. Emulation of memory corruption is disabled.
+AUTOSTART: Autodetecting image type of `/Users/marco/Documents/C64/Projects/Test/bin/spritemovement.prg'.
+Filesystem Image Probe: Error - Import GCR: Unknown GCR image version 48.
+Filesystem Image: Unknown disk image `/Users/marco/Documents/C64/Projects/Test/bin/spritemovement.prg'.
+Tape: Error - Cannot open file `/Users/marco/Documents/C64/Projects/Test/bin/spritemovement.prg'
+Error - could not read CRT header.
+CART: '/Users/marco/Documents/C64/Projects/Test/bin/spritemovement.prg' is not a valid CRT file.
+AUTOSTART: Loading PRG file `/Users/marco/Documents/C64/Projects/Test/bin/spritemovement.prg' with direct RAM injection.
+AUTOSTART: Resetting the machine to autostart '*'
+VIC-II: VSP Bug: safe channels are: 016. Emulation of memory corruption is disabled.
+AUTOSTART: Turning Warp mode on.
+AUTOSTART: `/Users/marco/Documents/C64/Projects/Test/bin/spritemovement.prg' recognized as program/p00 file.
+Monitor playback command: al C:812 .patternLoop
+Monitor playback command: al C:80b .upstartEnd
+Monitor playback command: al C:80e .main
+Monitor playback command: al C:82c .gameLoop
+Closed monitor command playback file: /Users/marco/Documents/C64/Projects/Test/bin/spritemovement.vs
+Main CPU: RESET.
+sound (coreaudio_init): Found audio device with no outputs: Microfono MacBook Air
+sound (coreaudio_init): Found output audio device: Altoparlanti MacBook Air (Default)
+sound (coreaudio_init): Found output audio device: Microsoft Teams Audio
+sound (coreaudio_init): Using output audio device: Altoparlanti MacBook Air
+sound (coreaudio_init): audio frame buffer size in samples min: 15.000000 max: 4096.000000 fragment size: 32, chosen: 32
+sound (coreaudio_start): Started
+Sound: Opened device `coreaudio', speed 48000Hz, fragment size 0.67ms, buffer size 20.00ms
+Copybuffer increase to 64 bytes
+Monitor UI: 'C64 Pro*' font found, enabling PETSCII output.
+Monitor UI: using font 'C64 Pro Mono 9' (Family:C64 Pro Mono, Size:9, Variations:-) PETSCII:yes Terminal Scale:1.000000
+Sound: reSID: MOS6581, filter on, sampling rate 48000Hz - resampling, pass to 21600Hz
+VSync: Sync reset
+Unit 8: RESET.
+AUTOSTART: Injecting program data at $0801 (size $0031)
+AUTOSTART: Ready
+AUTOSTART: Turning Warp mode off.
+AUTOSTART: Starting program.
+AUTOSTART: Restoring FileSystemDevice8 to 1.
+AUTOSTART: Restoring FSDevice8ConvertP00 to 1.
+AUTOSTART: Restoring FSDeviceLongNames to 0.
+AUTOSTART: Done.
+VSync: Sync reset
+Render thread: Initiating render thread 0 shutdown
+Render thread: Joining render thread 0 ...
+OpenGL: Render thread shutdown
+Render thread: Joined render thread 0.
+
+
+LogFileName="/Users/marco/Documents/C64/Projects/Test/bin/spritemovement_ViceLog.txt"
+SaveResourcesOnExit=1
+MonitorXPos=0
+MonitorYPos=65
+MonitorWidth=1472
+MonitorHeight=845
+MonitorFont="C64 Pro Mono 9"
+Window0Height=638
+Window0Width=720
+Window0Xpos=460
+Window0Ypos=194
+KeymapSymFile="gtk3_sym_it.vkm"
+KeymapPosFile="gtk3_pos_it.vkm"
+KeymapUserSymFile=""
+KeyboardMapping=7
+VirtualDevice1=1
+IECReset=1
+CIA1Model=0
+CIA2Model=0
+VICIIPaletteFile="pepto-pal.vpl"
+VICIIExternalPalette=1
+VICIIFilter=0
+VICIIModel=0
+SidModel=0
+JoyPort10Device=0
+JoyPort9Device=0
+JoyPort8Device=0
+JoyPort7Device=0
+JoyPort6Device=0
+JoyPort5Device=0
+JoyPort4Device=0
+JoyPort3Device=0
+KeySet1North=65362
+KeySet1East=65363
+KeySet1South=65364
+KeySet1West=65361
+KeySet1Fire=32
+KeySet2North=65362
+KeySet2East=65363
+KeySet2South=65364
+KeySet2West=65361
+KeySet2Fire=109
+JoyStick1AutoFireSpeed=1
+JoyDevice2=0
+JoyStick2AutoFireSpeed=1
+AutostartPrgMode=1
+GlueLogic=0
+DriveSoundEmulation=1
+DriveSoundEmulationVolume=2039
+BinaryMonitorServer=1
+
+-default -logfile "/Users/marco/Documents/C64/Projects/Test/bin/spritemovement_ViceLog.txt" -saveres -monitorfont "C64 Pro Mono 9" -monitorxpos "0" -monitorypos "65" -monitorwidth "1472" -monitorheight "845" -windowxpos "460" -windowypos "194" -windowwidth "720" -windowheight "638" -keyboardmapping "7" -symkeymap "" -virtualdev1 -cia1model "0" -cia2model "0" -iecreset "1" -VICIIfilter "0" -VICIIextpal -VICIIpalette "pepto-pal.vpl" -VICIImodel "0" -sidmodel "0" -controlport3device "0" -controlport4device "0" -controlport5device "0" -controlport6device "0" -controlport7device "0" -controlport8device "0" -controlport9device "0" -controlport10device "0" -joystick1autofirespeed "1" -joydev2 "0" -joystick2autofirespeed "1" -autostartprgmode "1" -drivesound -drivesoundvolume "2039" -gluelogictype "0" -binarymonitor
+Mainlock: VICE thread initiating shutdown
+Mainlock: VICE thread is exiting
+Main: VICE thread has been joined.
+Writing configuration file `/Users/marco/.config/vice/vicerc'.
+VIC-II: VSP Bug: safe channels are: 2467. Emulation of memory corruption is disabled.
+Sound: Closing device `coreaudio'
+AudioComponentInstanceDispose
+Hotkeys: shutting down.
