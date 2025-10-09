@@ -11,7 +11,7 @@ Memory Map
 Default-segment:
   $0801-$080c Basic
   $080e-$0884 Basic End
-  $2000-$37ff Unnamed
+  $2000-$47ff Unnamed
 
 Writing Vice symbol file: /Users/marco/Documents/C64 Assembly Language/FirstProject/bin/readingJoystick.vs
 Writing Symbol file: readingJoystick.sym

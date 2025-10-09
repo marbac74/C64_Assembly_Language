@@ -25,7 +25,7 @@ main:
 	lda #$80
 	sta SPRITE_POINTER         // Setting the sprite 0 pointer to RAM address $2000
 
-	lda #YELLOW
+	lda #WHITE
 	sta SPRITE_COLOR
 
 	lda #%00000001
@@ -103,4 +103,4 @@ delay:
 	rts 
 
 *=$2000
-.import binary "/sprites/sprites.bin"
+.import binary "/sprites/hires_sprite.bin"
