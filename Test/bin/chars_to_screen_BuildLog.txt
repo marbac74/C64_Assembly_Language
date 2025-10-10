@@ -1,0 +1,17 @@
+Output dir: /Users/marco/Documents/C64 Assembly Language/Test/bin
+parsing
+flex pass 1
+flex pass 2
+flex pass 3
+Output pass
+Writing prg file: /Users/marco/Documents/C64 Assembly Language/Test/bin/chars_to_screen.prg
+
+Memory Map
+----------
+Default-segment:
+  $0801-$080c Basic
+  $080e-$0836 Basic End
+
+Writing Vice symbol file: /Users/marco/Documents/C64 Assembly Language/Test/bin/chars_to_screen.vs
+Writing Symbol file: chars_to_screen.sym
+Error while executing external program: java.io.IOException: Cannot run program "/Applications/VICE3.8_GTK/bin/x64sc" (in directory "/Users/marco/Documents/C64 Assembly Language/Test/bin"): error=2, No such file or directory

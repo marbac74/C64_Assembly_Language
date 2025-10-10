@@ -1,0 +1,7 @@
+.label SCREEN_RAM=$400
+.label Row_HI=$814
+.label SCREEN_WIDTH=$28
+.label Row_LO=$80e
+.label main=$81a
+.label store=$82a
+.label rowloop=$81c
